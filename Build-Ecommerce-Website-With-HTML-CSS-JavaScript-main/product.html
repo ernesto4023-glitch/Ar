@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detalles del Producto</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <style>
+    .buy-btn{
+  background: #fb774b;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.redes a{
+    color: #999;
+}
+
+.redes a:hover{
+    color: coral;
+}
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top" >
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/OIP-removebg-preview (1).png" alt="" class="logo">Armario Trendin</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i id="bar" class="bi bi-list"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto ">
+                
+                
+                    <li class="new-item">
+                        <a href="carrusel.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="new-item">
+                        <a href="" class="nav-link active">Shop</a>
+                    </li>
+                    <li class="new-item">
+                        <a href="" class="nav-link">About</a>
+                    </li>
+                    <li class="new-item">
+                        <a href="" class="nav-link">Contact Us</a>
+                    </li>
+                    <li class="new-item">
+                        <i class="bi bi-bag"></i>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+  <div class="container mt-5 pt-5 ">
+    <div class="row">
+      <div class="col-md-6">
+        <img id="MainImg" class="img-fluid w-100 pb-3" src="" alt="Producto">
+
+        <div class="d-flex gap-2" id="thumbnails"></div>
+        </div>
+
+      <div class="col-md-6">
+        <h6>Home / Producto</h6>
+        <h3 id="product-name">Nombre del producto</h3>
+        <h2 id="product-price">Precio</h2>
+        <select class="my-3">
+          <option>Selecciona talla</option>
+          <option>Small</option>
+          <option>Medium</option>
+          <option>Large</option>
+        </select>
+        <input type="number" value="1">
+        <button class="buy-btn">Agregar al carrito</button>
+        <h4 class="mt-5 mb-3">Detalles del producto</h4>
+        <p id="product-description">Descripción del producto aquí.</p>
+      </div>
+    </div>
+  </div>
+
+    <section id="featured" class="my-5 pb-5">
+        <div class="container text-center mt-5 py-5">
+            <h3>Related Product</h3>
+            <hr class="mx-auto">
+        </div>
+        <div class="row mx-auto container-fluid">
+            <div class="product text-center col-lg-3 col-md-4 col-6">
+                <img class="img-fluid md-3" src="img/featured/1.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">192.000</h4>
+                <button class="buy-btn">Buy now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-6">
+                <img class="img-fluid md-3" src="img/featured/2.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">192.000</h4>
+                <button class="buy-btn">Buy now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-6">
+                <img class="img-fluid md-3" src="img/featured/3.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">192.000</h4>
+                <button class="buy-btn">Buy now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-6">
+                <img class="img-fluid md-3" src="img/featured/4.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">192.000</h4>
+                <button class="buy-btn">Buy now</button>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="mt-5 py-5">
+        <div class="row container mx-auto pt-5">
+          <div class="footer-one col-lg-3 col-md-6 col-12">
+              <h2><i class="bi bi-shop"></i>Armario Trendin</h2>
+              <p class="pt-3">Lorem ipsum dolor sit amet consectetur 
+                  adipisicing elit. Debitis, distinctio, 
+                  maxime et sunt dignissimos omnis amet dolorem.
+              </p>
+          </div>
+          <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+              <h5 class="pb-2">Featured</h5>
+                  <ul class="text-uppercase list-unstyled">
+                    <li><a href="#">Man</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Boys</a></li>
+                    <li><a href="#">Girls</a></li>
+                    <li><a href="#">New Arrival</a></li>
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Cloths</a></li>
+                  </ul>
+          </div>
+
+          <div class="footer-one col-lg-3 col-md-6 col-12">
+              <h5 class="pb-2">Contact Us</h5>
+                  <div>
+                      <h6 class="text-uppercase">Address</h6>
+                      <p>CAMPO BLANCO, CALLE NEGRO PRIMERO</p>
+                  </div>
+                  <div>
+                      <h6 class="text-uppercase">Phone</h6>
+                      <p>555-555-5555</p>
+                  </div>
+                  <div>
+                      <h6 class="text-uppercase">Email</h6>
+                      <p>ejemplo@gmail.com</p>
+                  </div>
+          </div>
+          <div class="footer-one col-lg-3 col-md-6 col-12">
+              <h5 class="pb-2">Instagram</h5>
+                <div class="row">
+                  <img class="img-fluid w-25 h-100 m-2" src="img/insta/1.jpg" alt="">
+                  <img class="img-fluid w-25 h-100 m-2" src="img/insta/2.jpg" alt="">
+                  <img class="img-fluid w-25 h-100 m-2" src="img/insta/4.jpg" alt="">
+                  <img class="img-fluid w-25 h-100 m-2" src="img/insta/3.jpg" alt="">
+                  <img class="img-fluid w-25 h-100 m-2" src="img/insta/5.jpg" alt="">
+                </div>
+          </div>
+          
+          <div class="copyright mt-5">
+              <div class="row container mx-auto">
+                  <div class="col-lg-4 col-md-6 col-12 mb-4">
+                      <img src="img/payment.png" alt="">
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-12 text-nowrap mb-2">
+                      <p>eCommerce &copy; 2025 Ernesto.</p>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-12 redes">
+                      <a href="#"><i class="bi bi-facebook"></i></a>
+                      <a href="#"><i class="bi bi-telegram"></i></a>
+                      <a href="#"><i class="bi bi-twitter-x"></i></a>
+                      <a href="#"><i class="bi bi-discord"></i></a>
+                  </div>
+
+              </div>
+          </div>
+
+
+    </footer>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+  <script>
+    // Simulación de base de datos
+    const products = [
+      {
+        id: "1",
+    name: "Camiseta Hombre",
+    price: 92.00,
+    images: [
+      "img/shop/1.jpg",
+      "img/shop/24.jpg",
+      "img/shop/25.jpg",
+      "img/shop/26.jpg"
+    ],
+    description: "Camiseta de algodón suave para uso diario."
+      },
+      {
+  id: "2",
+  name: "Zapatillas Deportivas",
+  price: 120.00,
+  images: [
+    "img/shop/2.jpg",
+    "img/shop/4.jpg",
+    "img/shop/5.jpg",
+    "img/shop/6.jpg"
+  ],
+  description: "Zapatillas cómodas para caminar o correr."
+},
+      {
+        id: "3",
+        name: "Pantalón Casual",
+        price: 75.00,
+        img: "img/shop/3.jpg",
+        description: "Pantalón versátil ideal para cualquier ocasión."
+      }
+    ];
+
+    // Obtener ID del producto desde la URL
+    const params = new URLSearchParams(window.location.search);
+    const productId = params.get("id");
+
+    const product = products.find(p => p.id === productId);
+
+    if (product) {
+  const mainImg = document.getElementById("MainImg");
+  const thumbnails = document.getElementById("thumbnails");
+
+  mainImg.src = product.images[0]; // Primera imagen como principal
+
+  product.images.forEach(imgUrl => {
+    const thumb = document.createElement("img");
+    thumb.src = imgUrl;
+    thumb.className = "img-thumbnail m-1";
+    thumb.style.width = "80px";
+    thumb.style.cursor = "pointer";
+
+    thumb.onclick = () => {
+      mainImg.src = imgUrl;
+    };
+
+    thumbnails.appendChild(thumb);
+  });
+
+  document.getElementById("product-name").textContent = product.name;
+  document.getElementById("product-price").textContent = `$${product.price.toFixed(2)}`;
+  document.getElementById("product-description").textContent = product.description;
+}
+
+  </script>
+</body>
+</html>
